@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "tumblez-finance",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-13",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tumblez-finance-db",
+      "database_id": "73418a0c-b14b-4141-964e-e7f362ebec0a"
+    }
+  ]
+}
+
