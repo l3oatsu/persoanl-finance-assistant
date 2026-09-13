@@ -1,0 +1,12 @@
+{
+  "static": {
+    "directory": "dist"
+  },
+  "d1": [
+    {
+      "binding": "DB",
+      "name": "tumblez-finance-db"
+    }
+  ]
+}
+
