@@ -1,4 +1,4 @@
-INSERT OR IGNORE INTO users (id, email, pin_salt, pin_hash) VALUES (1, 'demo@tumblez.finance', 'tumblez-demo-salt-v1', 'fb3c639b385655eb3ca5d603e70bb7433bd1461491ff983e18a3ad0bfd4e7919');
+INSERT OR IGNORE INTO users (id, email, pin_salt, pin_hash) VALUES (1, 'demo@tumblez.finance', 'tumblez-demo-salt-v1', 'abe1949293d6618e39f2e1c7c8f0940f1d03d4d4689d2ae8a4da8d7ab2942cb9');
 
 INSERT OR IGNORE INTO assets (id,user_id,category,kind,name,account,value,notes) VALUES
   ('cash-concept-1',1,'cash','asset','เงินสำรองฉุกเฉิน','บัญชีสภาพคล่องหลัก',180000,'เป้าหมาย 6 เดือนของค่าใช้จ่าย'),
